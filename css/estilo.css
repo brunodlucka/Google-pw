@@ -1,12 +1,12 @@
 html {
-    margin: 0;     /* centraliza e define margens para os quatro lados externo */ 
-    padding: 0;   /* centraliza e definne os lados internos*/ 
+    margin: 0;               /* centraliza e define margens para os quatro lados externo */ 
+    padding: 0;             /* centraliza e definne os lados internos*/ 
     font-family: 'roboto'; /* definindo a fonte roboto, apos chamada no html */
 }
 
 body {
-    margin: 0; 
-    padding: 0;
+    margin: 0;            /* centraliza e define margens para os quatro lados externo */ 
+    padding: 0;          /* centraliza e definne os lados internos*/ 
 
 }
 
@@ -45,45 +45,46 @@ a:hover {                         /* o houver é um comando que só é ativado n
     margin-left: auto;             /* distribui a margem igualmente, centralizando */
     margin-right: auto;           /* distribui a margem igualmente, centralizando */
     clear: both;                 /* deixa a imagem centralizada sem nenhum item na mesma linha que ela */
-    padding-top: 120px;         /* espaçamento de cima */
+    padding-top: 5px;           /* espaçamento de cima */
     padding-bottom: 20px;      /* espaçamento de baixo */
  }
 
  #form_google {
-    text-align: center;
+    text-align: center; /* centraliza o form */
  }
 
  #barra_de_pesquisagoogle {
-    width: 450px;
-    line-height: 20px;
+    width: 550px;           /* tamanho da barra de pesquisa do google*/
+    line-height: 30px;     /* altura da barra de pesquisa do google*/
+    border-radius: 20px;  /* Bordas da barra de pesquisa do google*/
  }
 
  #botoes_google {
-    text-align: center;
-    padding-top: 30px;
+    text-align: center; /* Centraliza os botões */
+    padding-top: 30px; /* distanciamento entre os botões */
  }
 
  footer {
-    background-color: #f2f2f2;
-    border-top: solid 2px #e4e4e4;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #f2f2f2;          /* cor de background do footer */
+    border-top: solid 2px #e4e4e4;     /* borda superior*/
+    position: fixed;                    /* A medida que a página é scrollada, o elemento continua fixo */
+    bottom: 0;                         /* */
+    width: 100%;                      /* ocupada 100% da tela*/
  }
 
  footer ul li {
-    display: inline;
-    color: #666666;
-    font-size: 14px;
-    padding: 12px;
+    display: inline;               /* Display em linha*/
+    color: #d30e0e;             /* cores de back ul li*/
+    font-size: 14px;             /* define a font */
+    padding: 12px;              /* espaçamento entre itens */
  }
 
  #footer_esquerdo {
-    float: left;
- }
+    float: left;              /* footer da esquerda*/
+ } 
 
  #footer_direito {
-    float: right;
+    float: right;            /* footer da direito */
  }
 
  
