@@ -1,8 +1,93 @@
 html {
-    margin: 0;
+    margin: 0;     /* centraliza e define margens para os quatro lados externo */ 
+    padding: 0;   /* centraliza e definne os lados internos*/ 
+    font-family: 'roboto'; /* definindo a fonte roboto, apos chamada no html */
+}
+
+body {
+    margin: 0; 
     padding: 0;
+
 }
 
 ul {
-    list-style: none;
+    list-style: none;  /*remover as bolinhas do ul */ 
 }
+
+a {
+    text-decoration: none; /* remover sublinhado do texto */
+    color: black;       /* alterando cor de fonte do texto para preto */  
+}
+
+a:hover {                         /* o houver é um comando que só é ativado no texto quando passa o mouse por cima */
+    text-decoration: underline;  /* quando o mouse for passado em cima do texto ele aparecera o sublinhado */   
+}
+
+#navbar_google {      /* para chamar id usamos # no CSS a id serve para um melhor controle de itens internos a ele*/
+    float: right;    /* o comando float right joga todo o conteudo chamado para a direita*/
+}
+
+#navbar_google li {                 /* todos os itens contidos na id será alterada */
+    display: inline-block;         /* posiciona as li em linha horizontal */
+    margin: 8px;                  /* faz um afastamento entre cada item */
+}
+
+#navbar_google #entrar {             /* chamando uma id dentro de uma id */
+    background-color: #4887ef;    /* cor de fundo da id entrar */
+    margin-right: 25px;            /* margem direita*/
+    padding: 7px 15px;            /* cria uma margem interna, 7 laterais 15 superior e inferior */
+    border-radius: 4px;          /* arredonda a bordas*/
+    font-weight: bold;          /* deixa a font um pouco mais grossa em negrito*/
+}
+
+#imagem_google img {                 /* chamando o ID e também a imagem com img */
+    display: block;                 /* ocupa largura disponivel na pagina e é bloqueada*/
+    margin-left: auto;             /* distribui a margem igualmente, centralizando */
+    margin-right: auto;           /* distribui a margem igualmente, centralizando */
+    clear: both;                 /* deixa a imagem centralizada sem nenhum item na mesma linha que ela */
+    padding-top: 120px;         /* espaçamento de cima */
+    padding-bottom: 20px;      /* espaçamento de baixo */
+ }
+
+ #form_google {
+    text-align: center;
+ }
+
+ #barra_de_pesquisagoogle {
+    width: 450px;
+    line-height: 20px;
+ }
+
+ #botoes_google {
+    text-align: center;
+    padding-top: 30px;
+ }
+
+ footer {
+    background-color: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
+
+ footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 12px;
+ }
+
+ #footer_esquerdo {
+    float: left;
+ }
+
+ #footer_direito {
+    float: right;
+ }
+
+ 
+
+
+ /* # chamada ID*/
+ /* . chamada CLASSE */
